@@ -33,8 +33,8 @@ function App() {
   ]
   return (
     <div className="App">
-      {
-        data.map((el, id) => {
+      <h1>Hi</h1>
+      {data.map((el, id) => {
           return <Card data={el} key={id}/>;
         })
       }
